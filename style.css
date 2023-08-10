@@ -1,0 +1,172 @@
+@font-face {
+    font-family: "Rubik-Mono-One";
+    src: url(Rubik_Mono_One/RubikMonoOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "REM";
+    src: url(REM/REM-VariableFont_wght.ttf), url(REM/REM-Italic-VariableFont_wght.ttf);
+}
+
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.header-box {
+    display: flex;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%
+}
+
+h1 {
+    font-family: "Rubik-Mono-One";
+    text-align: center;
+    align-self: center;
+    font-size: 40px;
+    width: 100%;
+}
+
+.samurai-logo {
+    width: 200px;
+    height: 100%;
+    align-self: center;
+    border-radius: 50%;
+}
+
+.picture {
+    background-image: url('photo-1618408329284-97effc3d149a.avif');
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 40%;
+    background-position-x: -230px;
+    background-position-y: -200px;
+    flex-shrink: 1;
+    display: flex;
+    align-items: center;
+}
+
+.survey-content {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    flex-shrink: 1;
+    background-color: #DBDFE9;
+    font-family: "REM", sans-serif;
+}
+
+.filler-text {
+    font-size: 1.5rem;
+    margin: 40px;
+}
+
+legend {
+    font-size:larger
+}
+
+form {
+    padding: 30px 30px;
+    background-color: #EAEDF4;
+    height: 37%;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.2);
+}
+
+fieldset {
+    border: 0;
+    display: flex;
+}
+
+.first-col, 
+.second-col {
+    min-width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    appearance: none;
+    height: 50%;
+    border-radius: 10px;
+    padding: 5px;
+    width: 90%;
+    border: 1px solid #AEB0B4;
+    background-color: #EAEDF4;
+    opacity: 0.9;
+    font-family: "REM", sans-serif;
+}
+
+label {
+    margin: 10px 0px;
+}
+
+
+.filler-text p {
+    margin: 10px 10px 2px 10px;
+}
+
+.submit-content {
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    display: flex;
+    gap: 10px;
+}
+
+.login,
+.login-button {
+    text-decoration: none;
+    color: #000;
+    align-self: center;
+}
+.login-button:hover {
+    color: #fff;
+}
+
+/* CSS */
+.button {
+    align-self: center;
+    background-color: #fff;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #41403e;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Neucha, sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    }
+
+.button:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+}
+
+.button:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}

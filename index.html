@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="picture">
+        <div class="header-box">
+            <img class="samurai-logo" src="samurai-logo.png" alt="Samurai Logo">
+            <h1>The Samurai Survey</h1>
+        </div>
+    </div>
+    <div class="survey-content">
+        <div class="filler-text">
+            <p>This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi!</p>
+            <p>Sign up <em>now</em> to get started.</p>
+            <br>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+        <form action="#" method="get">
+            <div class="form-content">
+                <fieldset>
+                    <legend>Let's do this!</legend>
+                    <div class="first-col">
+                        <label for="first-name">FIRST NAME
+                            <input type="text" id="first-name" name="first-name" placeholder="John" required/>
+                        </label>
+                        <label for="email">EMAIL
+                            <input type="email" name="emai" id="email" placeholder="johnsmith@mail.com" required/>  
+                        </label>
+                        <label for="password">PASSWORD
+                            <input type="password" name="password" id="password" required/>
+                        </label>
+                    </div>
+                    <div class="second-col">
+                        <label for="last-name">LAST NAME
+                            <input type="text" name="last-name" id="last-name" placeholder="Smith" required/>
+                        </label>
+                        <label for="ph">PHONE NUMBER
+                            <input type="tel" name="ph" id="ph" required/>
+                        </label>
+                        <label for="confirm-pw">CONFIRM PASSWORD
+                            <input type="password" name="confirm-pw" id="confirm-pw" required>
+                        </label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="submit-content">
+                <button class="button" type="submit">Create Account</button>
+                <div class="login">Already have an account? <a href='#'class="login-button">Login</a></div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
